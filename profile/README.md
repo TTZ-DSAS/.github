@@ -1,12 +1,21 @@
-## Hi there 👋
+## Repository for all TTZ-DSAS repositories
 
-<!--
+### Repo name definition
 
-**Here are some ideas to get you started:**
+Structure the repos in the following order:
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+&lt;project&gt; _ &lt;subProject&gt; _ &lt;type&gt; _ &lt;useCase&gt; _ &lt;type&gt; _ &lt;optional&gt;
+
+Explanation:
+
+- project: The primary name of the project (e.g., swisslog).
+- subProject: The secondary name, what the repo is about (e.g., tinderApp).
+- type: The type of the repository (e.g., backend, frontend).
+- useCase: The specific use-case (e.g., analytics, API, service, database, k8sService).
+- optional: Any additional information (e.g. experimental, v2, customerSpecific).
+
+Example:
+
+swisslog_tinderApp_backend_k8sService
+
+It is advisable to commence with a lowercase letter, subsequently employing camel case if necessary, and separating the constituent elements with an underscore.
