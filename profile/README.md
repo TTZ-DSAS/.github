@@ -4,7 +4,7 @@
 
 Structure the repos in the following order:
 
-&lt;project&gt; _ &lt;subProject&gt; _ &lt;type&gt; _ &lt;useCase&gt; _ &lt;type&gt; _ &lt;optional&gt;
+&lt;project&gt; _ &lt;subProject&gt; _ &lt;type&gt; _ &lt;useCase&gt; _ &lt;optional&gt;
 
 Explanation:
 
@@ -16,6 +16,6 @@ Explanation:
 
 Example:
 
-swisslog_tinderApp_backend_k8sService
+exampleProject_exampleName_backend_k8sService
 
 It is advisable to commence with a lowercase letter, subsequently employing camel case if necessary, and separating the constituent elements with an underscore.
